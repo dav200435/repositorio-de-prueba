@@ -23,4 +23,3 @@ class bullet:
         range*map
         cadencia=tic*self.cadencia
         damage=1*self.damage
-

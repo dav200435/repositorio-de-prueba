@@ -5,7 +5,7 @@ class armas:
         self.damage=damage
     
     def disparar(self):
-        if buttomshoot = True:
+        if buttomshoot == True:
             bullet.calculate(self.range,self.cadencia,self.damage)
             
 pistola = armas(20,2,12)
@@ -24,3 +24,4 @@ class bullet:
         cadencia=tic*self.cadencia
         damage=1*self.damage
 
+#No entiendo ni wea
